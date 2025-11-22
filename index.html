@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Internet Speed Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./custom.css">
+    <script src="./custom.js" defer></script>
+    <link rel="icon" href="./logo.svg" sizes="any" type="image/svg+xml">
+</head>
+
+<body class="body">
+    <main class="main">
+        <div class="main__content">
+            <div class="hero">
+                <p class="hero__text">Internet Speed Test</p>
+                <p class="typewriter">Download <span id="download"></span> Mbs | Upload <span id="upload">...</span> Mbs</p>
+                <p class="typewriter">Latency <span id="latency"></span> ms</p>
+                <p class="typewriter green" id="status"></p>
+                <button class="button" id="button" onclick="runSpeedTest()">Run Speed Test</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
